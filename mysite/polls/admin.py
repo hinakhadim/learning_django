@@ -2,7 +2,7 @@ from django.contrib import admin
 from .models import Question, Choice
 
 
-# Register your models here.
+# Register your models here. testing
 
 class ChoiceInline(admin.TabularInline):
     model = Choice
